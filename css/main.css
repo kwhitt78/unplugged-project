@@ -113,6 +113,8 @@
   ul, 
   ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
    
   a {
@@ -663,6 +665,11 @@
     footer h4 {
       font-size: 1.5em;
       margin-bottom: 40px;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
   
     footer p {
